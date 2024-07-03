@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-You can find my resume [here](http://prodrig06.github.io/files/cv.pdf).
+You can find my cv [here](http://prodrig06.github.io/files/cv.pdf).
