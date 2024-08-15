@@ -20,3 +20,6 @@ main:
     
   - title: "Working Papers"
     url: /working_papers/
+
+    - title: "Code"
+    url: /code/
