@@ -21,8 +21,8 @@ repository               : "prodrig06/prodrig06.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : #"photo_Pablo_Rodriguez.jpeg"
-  name             : "Pablo E. Rodriguez"
+  avatar           : "photo_Pablo_Rodriguez.jpeg"
+  name             : #"Pablo E. Rodriguez"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in Finance at MIT Sloan"
   location         : "Cambridge, MA"
