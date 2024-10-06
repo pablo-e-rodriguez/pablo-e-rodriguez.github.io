@@ -79,21 +79,21 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 50px; // Increased from 36px
-  height: 100px; // Added to maintain square shape
+  width: 36px;
+  // set width only, for non-square avatars
+  // height: 36px;
+
   @include breakpoint($large) {
     display: block;
     width: auto;
     height: auto;
   }
+
   img {
-    width: 100%; // Changed from max-width
-    height: 100%; // Added to ensure the image fills the container
-    border-radius: 0; // Keeps the square shape
-    object-fit: cover; // Ensures the image covers the area without distortion
+    max-width: 175px;
+    border-radius: 50%;
+
     @include breakpoint($large) {
-      max-width: 250px; // Increased from 175px
-      max-height: 300px; // Added to maintain aspect ratio
       padding: 5px;
       border: 1px solid $border-color;
     }
