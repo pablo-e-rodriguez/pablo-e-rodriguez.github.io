@@ -11,4 +11,4 @@ redirect_from:
 
 **Email**: pablo6@mit.edu
 
-Link to [CV](http://prodrig06.github.io/files/cv.pdf).
+Link to [CV](http://pablo-e-rodriguez.github.io/files/cv.pdf).
