@@ -25,7 +25,7 @@ author:
   name             : #"Pablo E. Rodriguez"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in Finance at MIT Sloan"
-  location         : "Cambridge, MA"
+  location         : #"Cambridge, MA"
   employer         : 
   uri              : # URL
   email            : # "pablo6@mit.edu" 
