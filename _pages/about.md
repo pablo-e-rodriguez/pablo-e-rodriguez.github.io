@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-Hi !
+**Research interests**: Financial Intermediation, Labor Economics, Behavioral Economics
 
-Email: pablo6@mit.edu
+**Email**: pablo6@mit.edu
