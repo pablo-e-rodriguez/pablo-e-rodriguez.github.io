@@ -79,7 +79,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
+  width: 100px;
   aspect-ratio: 1 / 1; // This ensures a square shape
   @include breakpoint($large) {
     display: block;
