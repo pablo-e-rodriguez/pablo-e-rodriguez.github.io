@@ -79,7 +79,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 100px; // Increased from 36px
+  width: 50px; // Increased from 36px
   height: 100px; // Added to maintain square shape
   @include breakpoint($large) {
     display: block;
@@ -93,7 +93,7 @@
     object-fit: cover; // Ensures the image covers the area without distortion
     @include breakpoint($large) {
       max-width: 250px; // Increased from 175px
-      max-height: 250px; // Added to maintain aspect ratio
+      max-height: 300px; // Added to maintain aspect ratio
       padding: 5px;
       border: 1px solid $border-color;
     }
