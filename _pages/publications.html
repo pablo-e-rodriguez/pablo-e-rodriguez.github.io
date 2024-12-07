@@ -5,12 +5,53 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+.abstract-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 2px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+.abstract-btn:hover {
+    background-color: #e9ecef;
+}
+
+.abstract-content {
+    display: none;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-left: 3px solid #dee2e6;
+}
+
+.publication-item {
+    margin-bottom: 20px;
+}
+</style>
+
 <ul>
-    <li>
+    <li class="publication-item">
         "Quesnay et Le Despotisme de la Chine: Économie du Politique"<br>
         <i>Revue de Philosophie Économique. 2023.</i><br>
-        Download paper <a href="http://pablo-e-rodriguez.github.io/files/RPEC_241_0215.pdf" target="_blank">here</a>.
+        Download paper <a href="http://pablo-e-rodriguez.github.io/files/RPEC_241_0215.pdf" target="_blank">here</a>
+        <button class="abstract-btn" onclick="toggleAbstract('abstract1')">Abstract</button>
+        <div id="abstract1" class="abstract-content">
+            Your abstract text goes here. Replace this with the actual abstract of the paper.
+        </div>
     </li>
-
 </ul>
 
+<script>
+function toggleAbstract(abstractId) {
+    const abstract = document.getElementById(abstractId);
+    if (abstract.style.display === "block") {
+        abstract.style.display = "none";
+    } else {
+        abstract.style.display = "block";
+    }
+}
+</script>
