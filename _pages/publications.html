@@ -6,18 +6,26 @@ author_profile: true
 ---
 
 <style>
-.abstract-btn {
-    background-color: #f8f9fa;
-    border: 1px solid #dee2e6;
-    padding: 2px 8px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9em;
-    margin-left: 10px;
+.pub-buttons {
+    display: inline-block;
+    margin: 5px 0;
 }
 
-.abstract-btn:hover {
-    background-color: #e9ecef;
+.pub-buttons a, .pub-button {
+    padding: 2px 8px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pub-buttons a:hover, .pub-button:hover {
+    text-decoration: underline;
+}
+
+.pub-buttons span {
+    color: #666;
+    margin: 0 2px;
 }
 
 .abstract-content {
@@ -37,8 +45,11 @@ author_profile: true
     <li class="publication-item">
         "Quesnay et Le Despotisme de la Chine: Économie du Politique"<br>
         <i>Revue de Philosophie Économique. 2023.</i><br>
-        Download paper <a href="http://pablo-e-rodriguez.github.io/files/RPEC_241_0215.pdf" target="_blank">here</a>
-        <button class="abstract-btn" onclick="toggleAbstract('abstract1')">Abstract</button>
+        <div class="pub-buttons">
+            [ <button class="pub-button" onclick="toggleAbstract('abstract1')">Abstract</button> |
+            <a href="http://pablo-e-rodriguez.github.io/files/RPEC_241_0215.pdf" target="_blank">PDF</a> |
+            <a href="#">arXiv Version</a> ]
+        </div>
         <div id="abstract1" class="abstract-content">
             Your abstract text goes here. Replace this with the actual abstract of the paper.
         </div>
