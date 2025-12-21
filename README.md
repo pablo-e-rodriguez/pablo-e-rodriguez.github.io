@@ -2,18 +2,13 @@
 
 This is my personal academic website, built using the [Academic Pages](https://github.com/academicpages/academicpages.github.io) template.
 
----
----
----
+<details>
+<summary><b> Template Documentation (click to expand)</b></summary>
 
-## Template Documentation (for reference)
+
+# Academic Pages Template Documentation (for reference)
 
 The content below is from the original Academic Pages template.
-
----
-
-
-# Academic Pages Template Documentation
 
 ![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 
