@@ -1,4 +1,19 @@
-# Academic Pages
+# Pablo E. Rodriguez's Academic Website
+
+This is my personal academic website, built using the [Academic Pages](https://github.com/academicpages/academicpages.github.io) template.
+
+---
+---
+---
+
+## Template Documentation (for reference)
+
+The content below is from the original Academic Pages template.
+
+---
+
+
+# Academic Pages Template Documentation
 
 ![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 
