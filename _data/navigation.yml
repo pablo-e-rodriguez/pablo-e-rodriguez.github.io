@@ -1,7 +1,6 @@
 # main links
 main:
-
-- title: "Code"
+    - title: "Code"
     url: /code/
 
  # - title: "Working Papers"
