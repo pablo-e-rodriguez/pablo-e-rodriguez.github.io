@@ -1,15 +1,15 @@
 # main links
 main:
 
-  - title: "Working Papers"
-    url: /working_papers/
-    
-  - title: "Publications"
-    url: /publications/
-    
-
-  - title: "Code"
+- title: "Code"
     url: /code/
+
+ # - title: "Working Papers"
+ #   url: /working_papers/
+    
+ # - title: "Publications"
+ #   url: /publications/
+    
 
 # - title: "CV"
  #   url: /cv/
